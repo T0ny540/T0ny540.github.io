@@ -1,0 +1,84 @@
+
+body {
+    background-color: #e8f1f8;
+    color: #243447;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+h1 {
+    color: #246bce;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 17px;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 20px 0 8px;
+}
+
+
+input {
+    border: 2px solid #b8c7d9;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    background-color: #246bce;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px 5px;
+    padding: 10px 18px;
+}
+
+
+button:hover {
+    background-color: #174a91;
+}
+
+
+#resetButton {
+    background-color: #777;
+}
+
+#resetButton:hover {
+    background-color: #555;
+}
+
+
+#guessMessage {
+    font-weight: bold;
+    min-height: 24px;
+}
+
+
+#guesses {
+    color: #246bce;
+    font-weight: bold;
+}
+
+
+#wins {
+    color: green;
+    font-weight: bold;
+}
+
+
+#losses {
+    color: red;
+    font-weight: bold;
+}
